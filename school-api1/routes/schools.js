@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const School = require('../models/School');
+const School = require('../models/school');
 
 const haversineDistance = (lat1, lon1, lat2, lon2) => {
   const toRad = angle => (angle * Math.PI) / 180;
